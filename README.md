@@ -1,5 +1,7 @@
 # junshengpierre.github.io
 
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+
 Bootstrapped with [Tailwind CSS with Emotion.js example](https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss-emotion)
 
 ### tailwind CSS config
