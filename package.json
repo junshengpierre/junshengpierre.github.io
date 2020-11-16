@@ -1,6 +1,8 @@
 {
   "name": "junshengpierre.github.io",
+  "author": "junshengpierre",
   "version": "1.0.0",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -28,8 +30,20 @@
     "eslint": "^7.13.0",
     "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-react": "^7.21.5",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.5.1",
     "prettier": "^2.1.2",
     "tailwindcss": "^1.6.0"
   },
-  "license": "MIT"
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "npm run lint",
+      "npm run format"
+    ]
+  }
 }
