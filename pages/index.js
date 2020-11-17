@@ -44,7 +44,7 @@ const Index = () => (
         <section className={css(tw`mb-8`)}>
           <p className={css(tw`mb-3 leading-relaxed`)}>
             I am a Software Developer with 5 years of experience working mostly
-            with frontend web and cross-platform mobile developement with
+            with frontend web and cross-platform mobile development with
             TypeScript, JavaScript, React and React Native.
           </p>
 
