@@ -10,9 +10,7 @@
     "build:base-css": "tailwindcss build ./styles/tailwind.base.css -o ./styles/base.css",
     "format": "prettier --write .",
     "lint": "eslint . --ext js",
-    "deploy": "rm -rf node_modules/.cache && next build && next export && touch out/.nojekyll && git add out/",
-    "deploy:test": "git commit -m \"Deploy Next.js to gh-pages\"",
-    "deploy:commit": "git subtree push --prefix out origin gh-pages"
+    "deploy": "rm -rf node_modules/.cache && next build && next export && touch out/.nojekyll && git add out/ && HUSKY_SKIP_HOOKS=1 git commit -m \"chore(deploy): deploy to github pages\" && git subtree push --prefix out origin gh-pages"
   },
   "dependencies": {
     "@emotion/css": "^11.0.0-next.12",
