@@ -47,10 +47,9 @@ const Index = () => (
           </p>
 
           <p className={css(tw`mb-3 leading-relaxed`)}>
-            I am a team player, and enjoy learning and contributing meaningfully
-            to build reliable and maintainable software that enables delightful
-            end user experience and empowers stakeholders to achieve their goals
-            and deliver impact.
+            I am a team player, and enjoy learning and building reliable and
+            maintainable software that enable delightful end user experience and
+            empower stakeholders to achieve their goals and deliver impact.
           </p>
 
           <p className={css(tw`mb-3 leading-relaxed`)}>
