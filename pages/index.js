@@ -10,8 +10,10 @@ import {
 } from 'react-icons/fa'
 
 const Index = () => (
-  <div className={css(tw`grid justify-center items-center h-screen`)}>
-    <main className={css(tw`flex flex-col md:flex-row my-8`)}>
+  <div className={css(tw`grid md:justify-center md:items-center h-screen`)}>
+    <main
+      className={css(tw`flex flex-col md:flex-row max-w-full px-4 py-4 pb-24`)}
+    >
       <div className={css(tw`mb-4`)}>
         <img
           className={css(tw`w-64 rounded-full`)}
@@ -19,8 +21,8 @@ const Index = () => (
         />
       </div>
 
-      <div className={css(tw`max-w-md md:ml-8`)}>
-        <section className={css(tw`mb-4`)}>
+      <div className={css(tw`md:ml-8 md:max-w-md`)}>
+        <section className={css(tw`mb-8`)}>
           <h1 className={css(tw`font-semibold text-3xl mb-2 font-sans`)}>
             Teo Jun Sheng, Pierre
           </h1>
@@ -39,7 +41,7 @@ const Index = () => (
           </div>
         </section>
 
-        <section className={css(tw`mb-4`)}>
+        <section className={css(tw`mb-8`)}>
           <p className={css(tw`mb-3 leading-relaxed`)}>
             I am a Software Developer with 5 years of experience working mostly
             with frontend web and cross-platform mobile developement with
@@ -58,7 +60,7 @@ const Index = () => (
           </p>
         </section>
 
-        <section className={css(tw`mb-4`)}>
+        <section className={css(tw`mb-8`)}>
           <ul>
             <li className={css(tw`mb-2`)}>
               <LinkItem
