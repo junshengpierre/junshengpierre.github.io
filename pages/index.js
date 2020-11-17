@@ -21,7 +21,7 @@ const Index = () => (
         />
       </div>
 
-      <div className={css(tw`md:ml-8 md:max-w-md`)}>
+      <div className={css(tw`md:ml-8 sm:max-w-md`)}>
         <section className={css(tw`mb-8`)}>
           <h1 className={css(tw`font-semibold text-3xl mb-2 font-sans`)}>
             Teo Jun Sheng, Pierre
