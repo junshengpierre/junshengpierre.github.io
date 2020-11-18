@@ -8,6 +8,13 @@ module.exports = {
       },
     },
   },
+  darkMode: 'media',
+  experimental: {
+    darkModeVariant: true,
+  },
   variants: {},
-  plugins: [require('@tailwindcss/ui')],
+  plugins: [
+    require('@tailwindcss/ui'),
+    require('tailwindcss/lib/flagged/darkModeVariantPlugin').default,
+  ],
 }

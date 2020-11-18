@@ -28,7 +28,9 @@ const Index = () => (
           </h1>
 
           <div className={css(tw`flex flex-row items-center mb-2`)}>
-            <FaBriefcase className={css(tw`fill-current text-gray-500`)} />
+            <FaBriefcase
+              className={css(tw`text-gray-500 dark:text-gray-400`)}
+            />
             <p className={css(tw`ml-2`)}>Software Developer</p>
           </div>
 
@@ -100,7 +102,7 @@ export default Index
 const LinkItem = ({ url, title, Icon }) => (
   <span className={css(tw`flex flex-row items-center`)}>
     <span>
-      <Icon className={css(tw`fill-current text-gray-500`)} />
+      <Icon className={css(tw`text-gray-500 dark:text-gray-400`)} />
     </span>
     <a
       href={url}
