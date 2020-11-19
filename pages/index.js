@@ -46,7 +46,7 @@ const Index = () => (
         <section className={css(tw`mb-8`)}>
           <p className={css(tw`mb-3 leading-relaxed`)}>
             I am a Software Developer with 5 years of experience working mostly
-            with frontend web and cross-platform mobile development with
+            with front end web and cross-platform mobile development with
             TypeScript, JavaScript, React and React Native.
           </p>
 
@@ -58,7 +58,7 @@ const Index = () => (
 
           <p className={css(tw`mb-3 leading-relaxed`)}>
             Things I&apos;ve been excited about and am exploring lately are iOS
-            development with SwiftUI and full-stack web development.
+            development with SwiftUI and full stack web development.
           </p>
         </section>
 
