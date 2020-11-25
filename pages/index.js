@@ -1,6 +1,5 @@
 import { css } from '@emotion/css'
 import tw from '@tailwindcssinjs/macro'
-
 import {
   FaBriefcase,
   FaGithub,
@@ -45,8 +44,8 @@ const Index = () => (
 
         <section className={css(tw`mb-8`)}>
           <p className={css(tw`mb-3 leading-relaxed`)}>
-            I am a Software Developer with 5 years of experience working mostly
-            with front end web and cross-platform mobile development with
+            Hi! 👋 I am a Software Developer with 5 years of experience working
+            mostly with front end web and cross-platform mobile development with
             TypeScript, JavaScript, React and React Native.
           </p>
 
@@ -63,6 +62,7 @@ const Index = () => (
         </section>
 
         <section className={css(tw`mb-8`)}>
+          <h3 className={css(tw`mb-2 font-semibold`)}>Connect with me:</h3>
           <ul>
             <li className={css(tw`mb-2`)}>
               <LinkItem
